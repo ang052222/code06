@@ -4,9 +4,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         
-        for(int i = 1 ; i <= 5 ; i++ ){
+        for(int i = n ; i <= 5 * n ; i += n){
             
-            System.out.print(n * i + " ");
+            System.out.print(i + " ");
         }
 
 
