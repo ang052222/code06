@@ -9,7 +9,7 @@ public class Main {
         if(n < 0){
             System.out.print("ice");
 
-        }else{
+        }else if(n >= 0){
             System.out.print("water");
         }
     }
