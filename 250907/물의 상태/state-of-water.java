@@ -9,7 +9,9 @@ public class Main {
         if(n < 0){
             System.out.print("ice");
 
-        }else if(n >= 0){
+        }else if(n > 99){
+            System.out.print("vapor");
+        }else{
             System.out.print("water");
         }
     }
